@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+ Programmer: Bill Herman
+ Date: 7/22/2013
+ Description: Listview element for custom item adapter 
+
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/textview_height_item"
+        android:background="@color/White"
+        android:textColor="@color/Black"
+        android:gravity="center"
+        android:padding="@dimen/textview_padding_item"
+        android:textSize="@dimen/textview_textSize_item" 
+        />
+
+</LinearLayout>

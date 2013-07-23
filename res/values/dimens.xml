@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="textview_height_header">50dp</dimen>
+    <dimen name="textview_textSize_header">20dp</dimen>
+    <dimen name="textview_height_item">50dp</dimen>
+    <dimen name="textview_padding_item">3dp</dimen>
+    <dimen name="textview_textSize_item">20dp</dimen>
+</resources>

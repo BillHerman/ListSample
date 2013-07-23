@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+
+ Programmer: Bill Herman
+ Date: 7/22/2013
+ Description: Main layout file containing header and list of items 
+
+ -->
+
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Header layout containing three textviews equally spaced horizontally -->
+    
+    <LinearLayout
+        android:id="@+id/itemHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textview_height_header"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gray" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/status"
+            android:textSize="@dimen/textview_textSize_header" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/photo"
+            android:textSize="@dimen/textview_textSize_header" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/checkIn"
+            android:textSize="@dimen/textview_textSize_header" />
+    </LinearLayout>
+
+    <!-- List view for item list -->
+    
+    <ListView
+        android:id="@+id/itemList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/itemHeader" >
+    </ListView>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListSample</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="status">Status</string>
+    <string name="photo">Photo</string>
+    <string name="checkIn">Check In</string>
+
+    <string-array name="item_array">
+        <item>Person 01</item>
+        <item>Person 02</item>
+        <item>Person 03</item>
+        <item>Person 04</item>
+        <item>Person 05</item>
+        <item>Person 06</item>
+        <item>Person 07</item>
+        <item>Person 08</item>
+        <item>Person 09</item>
+        <item>Person 10</item>
+        <item>Person 11</item>
+        <item>Person 12</item>
+        <item>Person 13</item>
+        <item>Person 14</item>
+        <item>Person 15</item>
+        <item>Person 16</item>
+        <item>Person 17</item>
+        <item>Person 18</item>
+        <item>Person 19</item>
+        <item>Person 20</item>
+        <item>Person 21</item>
+        <item>Person 22</item>
+        <item>Person 23</item>
+        <item>Person 24</item>
+        <item>Person 25</item>
+        <item>Person 26</item>
+        <item>Person 27</item>
+        <item>Person 28</item>
+        <item>Person 29</item>
+        <item>Person 30</item>
+    </string-array>
+
+</resources>
